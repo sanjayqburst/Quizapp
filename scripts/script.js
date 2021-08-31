@@ -77,6 +77,7 @@ $(document).ready(function() {
                 }
 
                 currentQuestion++;
+
                 if (currentQuestion < questions.length) {
                     displayCurrentQuestion();
                 } else {

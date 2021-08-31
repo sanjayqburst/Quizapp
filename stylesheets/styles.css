@@ -2,7 +2,7 @@
 h1 {
     font-family: 'Rokkitt', serif;
     text-align: center;
-    color: #fff;
+    color: #343D59;
     font-size: 35px;
 }
 
@@ -13,7 +13,7 @@ ul {
 li {
     font-family: 'Rokkitt', serif;
     font-size: 2em;
-    color: #feb135;
+    color: #024059;
 }
 
 input[type=radio] {
@@ -27,7 +27,7 @@ p {
 }
 
 .quizContainer {
-    background-color: #000398;
+    background-color: #A7D5F2;
     border-radius: 8px;
     width: 75%;
     margin: auto;
@@ -41,10 +41,11 @@ p {
     width: 150px;
     height: 40px;
     text-align: center;
-    background-color: #cc0000;
-    color: #fff;
+    background-color: #024059;
+    color: #EDF1FA;
     font-family: 'Rokkitt', serif;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 1.2em;
     position: relative;
     margin: auto;
     padding-top: 20px;
@@ -56,33 +57,36 @@ p {
     width: 90%;
     height: auto;
     width: auto;
+    margin: auto 20px;
     border-radius: 6px;
-    background-color: #f2f205;
+    background-color: #EDF1FA;
     text-align: center;
-    color: #27a653;
+    color: #024059;
 }
 
 .quizMessage {
-    background-color: peachpuff;
+    background-color: #1C7FA6;
     border-radius: 6px;
     width: 30%;
     margin: auto;
     text-align: center;
     padding: 2px;
     font-family: 'Rokkitt', serif;
-    color: red;
+    color: #edf1fa;
 }
 
 .choiceList {
     font-family: 'Rokkitt', serif;
-    color: blueviolet;
+    color: #024059;
 }
 
 .result {
-    width: 30%;
+    width: 40%;
     height: auto;
+    font-size: 1.5em;
     border-radius: 6px;
-    background-color: linen;
+    background-color: #343D59;
+    color: #edf1fa;
     margin: auto;
     margin-bottom: 35px;
     text-align: center;
