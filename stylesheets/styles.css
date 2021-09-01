@@ -11,8 +11,12 @@ ul {
 }
 
 li {
-	font-family: "Rokkitt", serif;
+	/* font-family: "Rokkitt", serif; */
 	font-size: 2em;
+	text-align: start;
+	margin: 10px;
+	border-radius: 10px;
+
 	color: #024059;
 }
 
@@ -20,6 +24,7 @@ input[type="radio"] {
 	border: 0px;
 	width: 20px;
 	height: 2em;
+	display: none;
 }
 
 p {
@@ -27,7 +32,7 @@ p {
 }
 
 .quizContainer {
-	background-color: #a7d5f2;
+	background-color:papayawhip;
 	border-radius: 8px;
 	width: 75%;
 	margin: auto;
@@ -35,7 +40,7 @@ p {
 	padding-top: 5px;
 	position: relative;
 }
-
+/* 
 .nextButton {
 	border-radius: 6px;
 	width: 150px;
@@ -63,7 +68,7 @@ p {
 	position: relative;
 	margin: auto;
 	padding-top: 20px;
-}
+} */
 
 .question {
 	font-family: "Rokkitt", serif;

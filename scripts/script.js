@@ -67,6 +67,7 @@ var quizOver = false;
 
 $(document).ready(function () {
 	displayCurrentQuestion();
+	var curValue = null;
 	$(this).find(".quizMessage").hide();
 
 	$(this)
@@ -113,31 +114,45 @@ $(document).ready(function () {
 				$(document).find(".quizMessage").text("No more previous question");
 				$(document).find(".quizMessage").show();
 			} else {
+				$(document).find(".quizContainer > .result").hide();
 				$(document).find(".quizMessage").hide();
 				currentQuestion--;
 				correctAnswers.pop();
 				displayCurrentQuestion();
 			}
 		});
+
+	$(document).on("click", ".choice", function () {
+		$(this).find("input[type=radio]").prop("checked", "true");
+		$(".active").removeClass("active");
+		$(this).addClass("active");
+	});
 });
+var optionsArr = ["A", "B", "C", "D", "E"];
 
 function displayCurrentQuestion() {
 	var question = questions[currentQuestion].question;
 	var questionClass = $(document).find(".quizContainer > .question");
 	var choiceList = $(document).find(".quizContainer > .choiceList");
 	var numChoices = questions[currentQuestion].choices.length;
-
-	$(questionClass).text(currentQuestion + 1 + ". " + question);
-
+	$(questionClass).text(
+		currentQuestion + 1 + ". of " + questions.length + " " + question
+	);
 	$(choiceList).find("li").remove();
 
 	var choice;
+	var option;
 	for (i = 0; i < numChoices; i++) {
+		option = optionsArr[i];
 		choice = questions[currentQuestion].choices[i];
 		$(
-			'<li><input type="radio" value=' +
+			"<li value=" +
 				i +
-				' name="dynradio" />' +
+				' class="choice btn btn-outline-primary" style="font-size:1.2em;font-weight:600;width:250%;text-align:start;"><input type="radio" value=' +
+				i +
+				' name="btnradio" />' +
+				option +
+				". " +
 				choice +
 				"</li>"
 		).appendTo(choiceList);
