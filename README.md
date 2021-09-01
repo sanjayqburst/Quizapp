@@ -1,6 +1,9 @@
 # Quizapp
+
 Basic Quiz app with JavaScript, HTML and CSS
 
-## To run the code 
-* Clone the repo 
-* Run the index.html file
+## To run the code
+
+- Clone the repo
+- Run the index.html file
+- Used technologies: JavaScript,HTML,CSS,JQuery,Bootstrap
