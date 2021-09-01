@@ -1,94 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
 h1 {
-    font-family: 'Rokkitt', serif;
-    text-align: center;
-    color: #343D59;
-    font-size: 35px;
+	font-family: "Rokkitt", serif;
+	text-align: center;
+	color: #343d59;
+	font-size: 35px;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 li {
-    font-family: 'Rokkitt', serif;
-    font-size: 2em;
-    color: #024059;
+	font-family: "Rokkitt", serif;
+	font-size: 2em;
+	color: #024059;
 }
 
-input[type=radio] {
-    border: 0px;
-    width: 20px;
-    height: 2em;
+input[type="radio"] {
+	border: 0px;
+	width: 20px;
+	height: 2em;
 }
 
 p {
-    font-family: 'Rokkitt', serif;
+	font-family: "Rokkitt", serif;
 }
 
 .quizContainer {
-    background-color: #A7D5F2;
-    border-radius: 8px;
-    width: 75%;
-    margin: auto;
-    margin-top: 190px;
-    padding-top: 5px;
-    position: relative;
+	background-color: #a7d5f2;
+	border-radius: 8px;
+	width: 75%;
+	margin: auto;
+	margin-top: 190px;
+	padding-top: 5px;
+	position: relative;
 }
 
 .nextButton {
-    border-radius: 6px;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    background-color: #024059;
-    color: #EDF1FA;
-    font-family: 'Rokkitt', serif;
-    font-weight: 500;
-    font-size: 1.2em;
-    position: relative;
-    margin: auto;
-    padding-top: 20px;
+	border-radius: 6px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color: #024059;
+	color: #edf1fa;
+	font-family: "Rokkitt", serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	position: relative;
+	margin: auto;
+	padding-top: 20px;
+}
+.backButton {
+	border-radius: 6px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color: #024059;
+	color: #edf1fa;
+	font-family: "Rokkitt", serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	position: relative;
+	margin: auto;
+	padding-top: 20px;
 }
 
 .question {
-    font-family: 'Rokkitt', serif;
-    font-size: 2em;
-    width: 90%;
-    height: auto;
-    width: auto;
-    margin: auto 20px;
-    border-radius: 6px;
-    background-color: #EDF1FA;
-    text-align: center;
-    color: #024059;
+	font-family: "Rokkitt", serif;
+	font-size: 2em;
+	width: 90%;
+	height: auto;
+	width: auto;
+	margin: auto 20px;
+	border-radius: 6px;
+	background-color: #edf1fa;
+	text-align: center;
+	color: #024059;
 }
 
 .quizMessage {
-    background-color: #1C7FA6;
-    border-radius: 6px;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-    padding: 2px;
-    font-family: 'Rokkitt', serif;
-    color: #edf1fa;
+	background-color: #1c7fa6;
+	border-radius: 6px;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	padding: 2px;
+	font-family: "Rokkitt", serif;
+	color: #edf1fa;
 }
 
 .choiceList {
-    font-family: 'Rokkitt', serif;
-    color: #024059;
+	font-family: "Rokkitt", serif;
+	color: #024059;
 }
 
 .result {
-    width: 40%;
-    height: auto;
-    font-size: 1.5em;
-    border-radius: 6px;
-    background-color: #343D59;
-    color: #edf1fa;
-    margin: auto;
-    margin-bottom: 35px;
-    text-align: center;
-    font-family: 'Rokkitt', serif;
+	width: 40%;
+	height: auto;
+	font-size: 1.5em;
+	border-radius: 6px;
+	background-color: #343d59;
+	color: #edf1fa;
+	margin: auto;
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: "Rokkitt", serif;
 }
